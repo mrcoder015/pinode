@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (mail($to, $subject, $email_content, $headers)) {
         // Redirect to the thank you page after successful submission
-        header("Location: https://pinetworkcoreteam.com/thanks/");
+        header("Location: https://pinet.com/");
         exit();
     } else {
         echo "Failed to send the message.";
